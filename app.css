@@ -1,0 +1,52 @@
+*{
+    font-family: roboto;
+}
+
+h1{
+    text-align: center;
+}   
+
+.fav-movies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#movie-form{
+    margin: 0 auto;
+}
+
+.movie-name, .movie-rating{
+    border-radius: 10px;
+    height: 2em;
+    border: 0.1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+button[type='submit']{
+    margin-left: 15px;
+    background-color: lightblue;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    border: 0.1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+}
+
+.table-div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+th{
+    padding-right: 110px;
+    border-bottom: 1px solid blue;
+}
+
+td{
+    padding: 0px;
+}
